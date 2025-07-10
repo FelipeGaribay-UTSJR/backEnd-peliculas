@@ -9,8 +9,8 @@ const peliculaRouter = require('./routes/pelicula.routes');
 
 // Conexión con la base de datos
 mongoose
-    //.connect('mongodb://127.0.0.1:27017/peliculas')
-    .connect('mongodb+srv://felipeguti22:lxIzfA3jddNE66zu@cluster0.ic4oy6k.mongodb.net/Peliculas?retryWrites=true&w=majority&appName=Cluster0')
+    //.connect('mongodb://127.0.0.1:27017/peliculas'=
+    .connect(' mongodb+srv://felipeguti22:lxIzfA3jddNE66zu@cluster0.ic4oy6k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then((x) => {
         console.log(`Conectado exitosamente a la base de datos: "${x.connections[0].name}"`);
     })
