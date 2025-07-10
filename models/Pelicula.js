@@ -10,4 +10,4 @@ const peliculaSchema = new mongoose.Schema({
   idioma: String
 });
 
-module.exports = mongoose.model('Pelicula', peliculaSchema);
+module.exports = mongoose.model('Pelicula', peliculaSchema, 'Peliculas');
