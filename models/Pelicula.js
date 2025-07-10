@@ -4,9 +4,9 @@ const peliculaSchema = new mongoose.Schema({
   titulo: String,
   director: String,
   genero: String,
-  anio: Number,
+  anio: String,
   clasificacion: String,
-  duracion: Number,
+  duracion: String,
   idioma: String
 });
 
